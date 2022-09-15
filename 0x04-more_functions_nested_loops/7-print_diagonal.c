@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *print_diagonal - prints a diagonal
- *@n: parameter
- *Return: returns nothing
+ * print_diagonal - prints a diagonal
+ * @n: parameter
+ * Return: returns nothing
  */
 
 void print_diagonal(int n)
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 			{
 				putchar(' ');
 			}
-	
+
 			putchar('\\');
 
 			if (len == (n - 1))
